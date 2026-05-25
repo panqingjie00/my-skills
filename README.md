@@ -1,16 +1,16 @@
 # My Skills
 
-个人 Claude Code Skills 合集。
+个人 Skills 合集。
 
 ---
 
 ## 技能列表
 
-### 1. Codex 接入 DeepSeek 指南
+### 1. Codex 接入 DeepSeek 指南（Claude Code Skill）
 
 - **文件名**：`Codex接入DeepSeek指南.md`
 - **简介**：在最新版 OpenAI Codex CLI 移除 `wire_api=chat` 支持后，使用 `deepseek-proxy` 本地代理实现 Responses API → Chat Completions API 协议翻译，让 DeepSeek 模型无缝接入 Codex，并集成 CC-Switch 一键切换。
-- **适用场景**：DeepSeek 用户想让 Codex CLI 使用 DeepSeek V4 Pro 等模型。
+- **适用场景**：想在 Codex 中使用 DeepSeek 模型。
 - **前置条件**：Python 3.9+、CC-Switch、DeepSeek API Key。
 
 **使用方法**：
