@@ -3,7 +3,7 @@ name: codex-deepseek-proxy
 description: 使用本地代理（deepseek-proxy）让 OpenAI Codex CLI 接入 DeepSeek 模型的完整指南。解决 wire_api 协议不兼容问题，支持 CC-Switch 一键切换。
 ---
 
-# Codex 接入 DeepSeek 完整指南（Windows）
+# Codex 接入 DeepSeek 完整指南（Windows-Claude Code）
 
 ## 前提条件
 
