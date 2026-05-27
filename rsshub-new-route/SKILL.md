@@ -96,6 +96,7 @@ async function handler() {
     return {
         title: '站点名 - 最新文章',
         link: 'https://example.com',
+        image: 'https://example.com/favicon.ico',
         item: items,
     };
 }
@@ -111,6 +112,7 @@ async function handler() {
 | `throw new Error(...)` 类型校验后 | `throw new TypeError(...)` | oxlint unicorn/prefer-type-error 规则 |
 | `path: '/namespace/latest'` | `path: '/latest'` | path 是相对于 namespace 的 |
 | `example: '/latest'` | `example: '/namespace/latest'` | example 需要完整路径 |
+| 忘记 feed 图标 | `return { ... image: 'https://site.com/icon.png' }` | RSS 阅读器需要 image 字段显示图标 |
 
 ---
 
